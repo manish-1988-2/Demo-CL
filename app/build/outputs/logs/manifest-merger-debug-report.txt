@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:5:1
+	package
+		ADDED from AndroidManifest.xml:6:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:9:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:8:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:5:11
+	android:installLocation
+		ADDED from AndroidManifest.xml:7:5
+uses-permission#android.permission.USE_SIP
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-feature#android.hardware.sip.voip
+ADDED from AndroidManifest.xml:12:5
+	android:required
+		ADDED from AndroidManifest.xml:12:60
+	android:name
+		ADDED from AndroidManifest.xml:12:19
+uses-feature#android.hardware.wifi
+ADDED from AndroidManifest.xml:13:5
+	android:required
+		ADDED from AndroidManifest.xml:13:56
+	android:name
+		ADDED from AndroidManifest.xml:13:19
+uses-feature#android.hardware.microphone
+ADDED from AndroidManifest.xml:14:5
+	android:required
+		ADDED from AndroidManifest.xml:14:62
+	android:name
+		ADDED from AndroidManifest.xml:14:19
+application
+ADDED from AndroidManifest.xml:16:5
+	android:label
+		ADDED from AndroidManifest.xml:18:9
+	android:icon
+		ADDED from AndroidManifest.xml:17:9
+activity#info.lamatricexiste.network.ActivityMain
+ADDED from AndroidManifest.xml:20:9
+	android:label
+		ADDED from AndroidManifest.xml:23:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:22:13
+	android:name
+		ADDED from AndroidManifest.xml:21:13
+receiver#info.lamatricexiste.network.Utils.IncomingCallReceiver
+ADDED from AndroidManifest.xml:31:9
+	android:label
+		ADDED from AndroidManifest.xml:31:89
+	android:name
+		ADDED from AndroidManifest.xml:31:19
+activity#info.lamatricexiste.network.ActivityDiscovery
+ADDED from AndroidManifest.xml:34:9
+	android:label
+		ADDED from AndroidManifest.xml:37:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:36:13
+	android:name
+		ADDED from AndroidManifest.xml:35:13
+activity#info.lamatricexiste.network.Utils.LoginAcitivity
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:41:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:40:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:42:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:43:17
+	android:name
+		ADDED from AndroidManifest.xml:43:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:44:17
+	android:name
+		ADDED from AndroidManifest.xml:44:27
+activity#info.lamatricexiste.network.ActivityPortscan
+ADDED from AndroidManifest.xml:48:9
+	android:label
+		ADDED from AndroidManifest.xml:51:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:49:13
+intent-filter#.SCAN_HOST+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:52:13
+action#.SCAN_HOST
+ADDED from AndroidManifest.xml:53:17
+	android:name
+		ADDED from AndroidManifest.xml:53:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:54:17
+	android:name
+		ADDED from AndroidManifest.xml:54:27
+activity#info.lamatricexiste.network.Utils.Prefs
+ADDED from AndroidManifest.xml:66:9
+	android:label
+		ADDED from AndroidManifest.xml:69:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:68:13
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+intent-filter#android.intent.category.DEFAULT+android.intent.category.PREFERENCE
+ADDED from AndroidManifest.xml:70:13
+category#android.intent.category.PREFERENCE
+ADDED from AndroidManifest.xml:72:17
+	android:name
+		ADDED from AndroidManifest.xml:72:27
+activity#info.lamatricexiste.network.Utils.Help
+ADDED from AndroidManifest.xml:76:9
+	android:label
+		ADDED from AndroidManifest.xml:78:13
+	android:name
+		ADDED from AndroidManifest.xml:77:13
+supports-screens
+ADDED from AndroidManifest.xml:82:5
+uses-sdk
+ADDED from AndroidManifest.xml:84:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:86:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:85:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:89:5
+	android:name
+		ADDED from AndroidManifest.xml:89:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:90:5
+	android:name
+		ADDED from AndroidManifest.xml:90:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:91:5
+	android:name
+		ADDED from AndroidManifest.xml:91:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:92:5
+	android:name
+		ADDED from AndroidManifest.xml:92:22

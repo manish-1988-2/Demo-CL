@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80bfff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"
+        android:textSize="40dip" />
+
+    <EditText
+        android:id="@+id/mobileNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cce5ff"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter Mobile Number"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"
+        android:textSize="30dip"/>
+
+
+    <EditText
+        android:id="@+id/pswrdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cce5ff"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter Password"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"
+        android:textSize="30dip"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:textSize="25dip"
+        android:background="#cce5ff"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
